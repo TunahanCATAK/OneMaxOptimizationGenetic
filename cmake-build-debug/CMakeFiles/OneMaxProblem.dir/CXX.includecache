@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ctsnz0060/CLionProjects/OneMaxProblem/main.cpp
+stdlib.h
+-
+time.h
+-
+vector
+-
+algorithm
+-
+iostream
+-
+random
+-
+
