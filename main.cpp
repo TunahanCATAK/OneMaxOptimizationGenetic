@@ -6,6 +6,8 @@
 #include <algorithm>
 #include <iostream>
 #include <random>
+#include <iterator>
+#include <ostream>
 
 static int GENE_SIZE = 5;
 
@@ -32,24 +34,32 @@ public:
         }
     }
 
+    Chromosome(const Chromosome &chrom) = default;
+
     float calculateFitness(){
         int fitt_val = std::count(std::begin(genes), std::end(genes), 1);
         return fitt_val;
     }
 
     void calculateExpectedNumber(float average){
-        expected_number = calculateFitness()/average;
+        this->expected_number = calculateFitness()/average;
         //DEBUG INFO:
         std::cout << "Chromosom: ";
 
         std::for_each(std::begin(genes), std::end(genes),
                       [=](int i){ std::cout << i << " "; });
 
-        std::cout << "  -> " << expected_number << std::endl;
+        std::cout << "  -> " << this->expected_number << std::endl;
     }
 
     bool operator<(const Chromosome& A) const{
+        std::cout << expected_number << " - " << A.expected_number << std::endl;
         return std::round(expected_number) < std::round(A.expected_number);
+    }
+
+    friend std::ostream& operator<< (std::ostream& os, const Chromosome& obj) {
+        std::copy(std::begin(obj.genes), std::end(obj.genes), std::ostream_iterator<Chromosome>(os, ", "));
+        return os;
     }
 
 };
@@ -59,6 +69,14 @@ public:
     int population_size;
     float population_average;
     std::vector<Chromosome> population_pool;
+
+    Population(){}
+
+    Population(const Population &pop){
+        population_pool = pop.population_pool;
+        population_size = pop.population_size;
+        population_average = pop.population_average;
+    }
 
     Population(int pop_size){
         population_size = pop_size;
@@ -89,11 +107,14 @@ class Mater{
 public:
     std::vector<Chromosome> mate_pool;
 
-    Mater(Population population){
+    Mater(Population& population){
         std::cout << population.population_average << std::endl;
         population.calculateProbabilities();
 
         std::sort(std::begin(population.population_pool), std::end(population.population_pool));
+
+        std::copy(std::begin(population.population_pool), std::end(population.population_pool), std::ostream_iterator<Chromosome>(std::cout, ", "));
+
     }
 };
 
