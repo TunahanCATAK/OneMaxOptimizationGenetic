@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ctsnz0060/CLionProjects/OneMaxProblem/main.cpp
+/home/tunahan/CLionProjects/OneMaxOptimizationGenetic/main.cpp
 stdlib.h
 -
 time.h
