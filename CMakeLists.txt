@@ -3,4 +3,4 @@ project(OneMaxProblem)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OneMaxProblem main.cpp)
+add_executable(OneMaxProblem  main.cpp GeneticStrategies/ GeneticCore/ Builder/ GeneticAlgorithm.cpp)

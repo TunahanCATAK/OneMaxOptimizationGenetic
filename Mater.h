@@ -1,0 +1,8 @@
+//
+// Created by z003j23c on 9/11/2018.
+//
+
+#ifndef ONEMAXPROBLEM_MATER_H
+#define ONEMAXPROBLEM_MATER_H
+
+#endif //ONEMAXPROBLEM_MATER_H
