@@ -5,14 +5,11 @@
 #ifndef ONEMAXPROBLEM_MUTATIONSTRATEGY_H
 #define ONEMAXPROBLEM_MUTATIONSTRATEGY_H
 
-namespace SimpleParentSelectionStrategy {
-
-
     class MutationStrategy {
 
     };
 
-}
+
 
 
 #endif //ONEMAXPROBLEM_MUTATIONSTRATEGY_H

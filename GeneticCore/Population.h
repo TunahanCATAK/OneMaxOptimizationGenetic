@@ -5,6 +5,7 @@
 #ifndef ONEMAXPROBLEM_POPULATION_H
 #define ONEMAXPROBLEM_POPULATION_H
 
+#include "Chromosome.h"
 
 class Population {
 

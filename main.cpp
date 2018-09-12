@@ -11,6 +11,7 @@
 #include "Builder/Builder.h"
 #include "Builder/SimpleGeneticAlgorithmBuilder.h"
 #include "GeneticStrategies/SimpleParentSelectionStrategy.h"
+#include "GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h"
 using namespace std;
 
 static int GENE_SIZE = 5;
@@ -22,11 +23,15 @@ int main(){
     srand (time(NULL));
 
     Population pop = Population(100);
-    auto sGA = SimpleGeneticAlgorithmBuilder(pop, 500);
-    sGA.setParentSelectionStrategy(new SimpleParentSelectionStrategy());
+    auto ga_builder = SimpleGeneticAlgorithmBuilder(pop, 500);
+    ga_builder.setParentSelectionStrategy(new SimpleParentSelectionStrategy());
+    ga_builder.setCrossOverStrategy(new SimpleCrossOverStrategy());
 
+    GeneticAlgorithm ga = *ga_builder.getGeneticAlgorithm();
     ga.startEvolution();
 
-    std::for_each(begin(ga.generations), end(ga.generations), [](Population gen){ std::cout << "Average: " << ga.population_average << std::endl;});
+    std::for_each(begin(ga.generations), end(ga.generations), [](Population gen){
+        std::cout << "Average: " << gen.population_average << std::endl;
+    });
     //Mater mater = Mater(pop);
 }

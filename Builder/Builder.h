@@ -5,17 +5,21 @@
 #ifndef ONEMAXPROBLEM_BUILDER_H
 #define ONEMAXPROBLEM_BUILDER_H
 
+#include "../GeneticStrategies/ParentSelectionStrategy.h"
+#include "../GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h"
+#include "../GeneticStrategies/MutationStrategies/MutationStrategy.h"
+#include "../GeneticAlgorithm.h"
 
 class Builder {
 
 public:
-    virtual void setReproductionStrategy(ReproductionStrategy rep) = 0;
+    virtual void setParentSelectionStrategy(ParentSelectionStrategy* rep) = 0;
 
-    virtual void setCrossOverStrategy(CrossOverStrategy xover) = 0;
+    virtual void setCrossOverStrategy(CrossOverStrategy* xover) = 0;
 
-    virtual void setMutationStrategy(MutationStrategy mutation) = 0;
+    virtual void setMutationStrategy(MutationStrategy* mutation) = 0;
 
-    GeneticAlgorithm *getGeneticAlgorithm()
+    GeneticAlgorithm* getGeneticAlgorithm()
     {
         return _result;
     }

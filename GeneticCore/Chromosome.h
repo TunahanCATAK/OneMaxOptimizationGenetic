@@ -5,6 +5,10 @@
 #ifndef ONEMAXPROBLEM_CHROMOSOME_H
 #define ONEMAXPROBLEM_CHROMOSOME_H
 
+#include <stdlib.h>
+#include <vector>
+#include <iostream>
+#include <cmath>
 
 class Chromosome {
 
@@ -48,23 +52,22 @@ public:
         std::cout << "  -> " << this->expected_number << std::endl;
     }
 
-    std::vector<Chromosome> performCrossOver(std::function<std::vector<Chromosome>(Chromosome, Chromosome)> func){
-        std::vector<Chromosome> chromosomes = std::vector<Chromosome>(2);
-        func(this);
-        int num = rand() % GENE_SIZE;
-        for (int i = 0; i < GENE_SIZE; i++){
-            if (i <= num){
-                chromosomes[0].genes[i] = this->genes[i];
-                chromosomes[1].genes[i] = chrom.genes[i];
-            }
-            else{
-                chromosomes[0].genes[i] = chrom.genes[i];
-                chromosomes[1].genes[i] = this->genes[i];
-            }
-        }
-
-        return chromosomes;
-    }
+//    std::vector<Chromosome> performCrossOver(std::function<std::vector<Chromosome>(Chromosome, Chromosome)> func){
+//        std::vector<Chromosome> chromosomes = std::vector<Chromosome>(2);
+//        int num = rand() % GENE_SIZE;
+//        for (int i = 0; i < GENE_SIZE; i++){
+//            if (i <= num){
+//                chromosomes[0].genes[i] = this->genes[i];
+//                chromosomes[1].genes[i] = chrom.genes[i];
+//            }
+//            else{
+//                chromosomes[0].genes[i] = chrom.genes[i];
+//                chromosomes[1].genes[i] = this->genes[i];
+//            }
+//        }
+//
+//        return chromosomes;
+//    }
 
     bool operator<(const Chromosome& A) const{
         return std::round(expected_number) < std::round(A.expected_number);

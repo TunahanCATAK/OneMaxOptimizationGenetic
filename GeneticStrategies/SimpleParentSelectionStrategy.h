@@ -5,22 +5,24 @@
 #ifndef ONEMAXPROBLEM_SIMPLEPARENTSELECTIONSTRATEGY_H
 #define ONEMAXPROBLEM_SIMPLEPARENTSELECTIONSTRATEGY_H
 
+#include <iterator>
+
 class SimpleParentSelectionStrategy : public ParentSelectionStrategy {
 
 public:
-    vector<Chromosome> FillMatingPool(Population& population, vector<Chromosome>& mating_pool){
-        cout << population.population_average << endl;
+    std::vector<Chromosome> FillMatingPool(Population& population, std::vector<Chromosome>& mating_pool) {
+        std::cout << population.population_average << std::endl;
         population.calculateProbabilities();
 
         sort(rbegin(population.population_pool), rend(population.population_pool));
 
         //print out for sorted list:
-        cout << "Sorted List: " << endl;
-        copy(begin(population.population_pool), end(population.population_pool), ostream_iterator<Chromosome>(
-                cout, "\n"));
+        std::cout << "Sorted List: " << std::endl;
+        copy(begin(population.population_pool), end(population.population_pool), std::ostream_iterator<Chromosome>(
+                std::cout, "\n"));
 
         for_each(begin(population.population_pool), end(population.population_pool),
-                 [=](Chromosome chrom) {
+                 [&](Chromosome chrom) { // TODO check if = was correct
                           if (round(chrom.expected_number) > 0) {
                               for (int i = 0; i < round(chrom.expected_number); i++) {
                                   if (mating_pool.size() < population.population_size) {
@@ -37,10 +39,10 @@ public:
                       });
 
         //print out for mate pool:
-        cout << "Mate Pool: (" << mating_pool.size() << ")" << endl;
-        copy(begin(mating_pool), end(mating_pool), ostream_iterator<Chromosome>(cout, "\n"));
+        std::cout << "Mate Pool: (" << mating_pool.size() << ")" << std::endl;
+        copy(begin(mating_pool), end(mating_pool), std::ostream_iterator<Chromosome>(std::cout, "\n"));
 
-        population.population_pool = mating_pool;
+        //population.population_pool = mating_pool; //TODO check if it is needed
     }
 
 
