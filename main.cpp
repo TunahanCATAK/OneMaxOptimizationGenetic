@@ -15,7 +15,7 @@ class Chromosome{
 public:
     int gene_size;
     std::vector<int> genes;
-    //float expected_number;
+    float expected_number;
 
     Chromosome() : Chromosome(5){
     }
