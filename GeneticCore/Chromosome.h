@@ -9,7 +9,7 @@
 #include <vector>
 #include <iostream>
 #include <cmath>
-
+#include <algorithm>
 class Chromosome {
 
 public:
@@ -25,9 +25,9 @@ public:
         genes = _genes;
     }
 
-    Chromosome(int _gene_size){
+    Chromosome(int _gene_size): genes(_gene_size, 0){
         gene_size = _gene_size;
-        genes = std::vector<int>(gene_size);
+        //genes = std::vector<int>(gene_size,0);
         for(int i = 0; i < gene_size; i++){
             int num = rand() % 10 + 1;
             genes[i] = num;

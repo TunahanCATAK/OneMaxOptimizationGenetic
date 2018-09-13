@@ -12,7 +12,7 @@
 class ParentSelectionStrategy {
 
 public:
-    virtual std::vector<Chromosome> FillMatingPool(Population& population, std::vector<Chromosome>& mating_pool) = 0;
+    virtual void FillMatingPool(Population& population, std::vector<Chromosome>& mating_pool) = 0;
 };
 
 

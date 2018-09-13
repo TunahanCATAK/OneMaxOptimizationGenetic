@@ -29,7 +29,6 @@
         }
 
         bool moreGenerations(){
-            generation++;
             return max_generation_count-- != 0;
         }
 
@@ -61,6 +60,7 @@
                 //SurvivalSelection
                 //auto survived_chromosomes = survivalStrategy.PerformSurvivalSelection(new_population); //TODO Not yet implemented
                 //generations.push_back(survived_chromosomes);
+                generation++;
             }
 
         }

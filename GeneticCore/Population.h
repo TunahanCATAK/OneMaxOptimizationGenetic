@@ -39,7 +39,7 @@ public:
         std::for_each(std::begin(population_pool), std::end(population_pool),
                       [&sum](Chromosome chro){ sum += chro.calculateFitness(); });
 
-        population_average = (float)sum/population_size;
+        population_average = (float)sum/population_pool.size();
 
         return population_average;
     }

@@ -14,7 +14,7 @@
                 std::vector<Chromosome> parents = PickParentsUp(mating_pool);
                 std::vector<Chromosome> children = PerformCrossOver(parents);
 
-                fill(begin(children), end(children), back_inserter(children_for_next_gen.population_pool));
+                std::copy(children.begin(), children.end(), std::back_inserter(children_for_next_gen.population_pool));
                 children_for_next_gen.population_size += 2; //TODO check if it is still needed
             }
 

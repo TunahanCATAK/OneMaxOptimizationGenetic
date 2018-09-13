@@ -1,7 +1,8 @@
 //
 // Created by z003j23c on 9/4/2018.
 #include <stdlib.h>     /* srand, rand */
-#include <ostream>
+#include <iostream>
+#include <time.h>
 #include <algorithm>
 #include <iterator>
 #include <random>
@@ -23,7 +24,7 @@ int main(){
     srand (time(NULL));
 
     Population pop = Population(100);
-    auto ga_builder = SimpleGeneticAlgorithmBuilder(pop, 500);
+    auto ga_builder = SimpleGeneticAlgorithmBuilder(pop, 5);
     ga_builder.setParentSelectionStrategy(new SimpleParentSelectionStrategy());
     ga_builder.setCrossOverStrategy(new SimpleCrossOverStrategy());
 

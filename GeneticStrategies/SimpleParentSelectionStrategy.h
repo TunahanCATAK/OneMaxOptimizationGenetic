@@ -10,7 +10,7 @@
 class SimpleParentSelectionStrategy : public ParentSelectionStrategy {
 
 public:
-    std::vector<Chromosome> FillMatingPool(Population& population, std::vector<Chromosome>& mating_pool) {
+    void FillMatingPool(Population& population, std::vector<Chromosome>& mating_pool) {
         std::cout << population.population_average << std::endl;
         population.calculateProbabilities();
 
