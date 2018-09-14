@@ -25,7 +25,7 @@ public:
         genes = _genes;
     }
 
-    Chromosome(int _gene_size): genes(_gene_size, 0){
+    Chromosome(int _gene_size) : genes(_gene_size, 0){
         gene_size = _gene_size;
         //genes = std::vector<int>(gene_size,0);
         for(int i = 0; i < gene_size; i++){

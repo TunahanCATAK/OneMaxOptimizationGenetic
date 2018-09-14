@@ -34,5 +34,5 @@ int main(){
     std::for_each(begin(ga.generations), end(ga.generations), [](Population gen){
         std::cout << "Average: " << gen.population_average << std::endl;
     });
-    //Mater mater = Mater(pop);
+    
 }
