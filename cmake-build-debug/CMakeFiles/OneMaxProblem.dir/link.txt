@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\OneMaxProblem.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\OneMaxProblem.dir/objects.a @CMakeFiles\OneMaxProblem.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\OneMaxProblem.dir/objects.a -Wl,--no-whole-archive  -o OneMaxProblem.exe -Wl,--out-implib,libOneMaxProblem.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OneMaxProblem.dir\linklibs.rsp
+/usr/bin/g++  -std=c++14 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/OneMaxProblem.dir/main.cpp.o CMakeFiles/OneMaxProblem.dir/GeneticAlgorithm.cpp.o  -o OneMaxProblem 

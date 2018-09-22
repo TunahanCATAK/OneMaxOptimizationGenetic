@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OneMaxProblem.dir/main.cpp.obj"
-  "CMakeFiles/OneMaxProblem.dir/GeneticAlgorithm.cpp.obj"
+  "CMakeFiles/OneMaxProblem.dir/main.cpp.o"
+  "CMakeFiles/OneMaxProblem.dir/GeneticAlgorithm.cpp.o"
   "OneMaxProblem.pdb"
-  "OneMaxProblem.exe"
-  "OneMaxProblem.exe.manifest"
-  "libOneMaxProblem.dll.a"
+  "OneMaxProblem"
 )
 
 # Per-language clean rules from dependency scanning.
