@@ -4,7 +4,7 @@
 
 #include "../../Builder/SimpleGeneticAlgorithmBuilder.h"
 #include "../../GeneticCore/Chromosome.h"
-#include "../ParentSelectionStrategy.h"
+#include "../../ParentSelectionStrategy/ParentSelectionStrategy.h"
 #include <iterator>
 #include <random>
 #include <iostream>

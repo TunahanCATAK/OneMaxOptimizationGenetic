@@ -7,8 +7,8 @@
 #IncludeRegexTransform: 
 
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/Builder/Builder.h
-../GeneticStrategies/ParentSelectionStrategy.h
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy.h
+../GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
+/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
 ../GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h
 ../GeneticStrategies/MutationStrategies/MutationStrategy.h
@@ -21,20 +21,10 @@ Builder.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/Builder/Builder.h
 
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticAlgorithm.cpp
-Builder/SimpleGeneticAlgorithmBuilder.h
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/Builder/SimpleGeneticAlgorithmBuilder.h
-GeneticCore/Population.h
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticCore/Population.h
-GeneticCore/Chromosome.h
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticCore/Chromosome.h
-GeneticStrategies/ParentSelectionStrategy.h
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy.h
 vector
 -
 stdlib.h
 -
-GeneticAlgorithm.h
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticAlgorithm.h
 
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticAlgorithm.h
 stdlib.h
@@ -51,6 +41,8 @@ GeneticStrategies/MutationStrategies/MutationStrategy.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/MutationStrategies/MutationStrategy.h
 GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h
+GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
+/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
 
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticCore/Chromosome.h
 stdlib.h
@@ -80,13 +72,13 @@ iterator
 
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/MutationStrategies/MutationStrategy.h
 
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy.h
-../GeneticCore/Population.h
+/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
+../../GeneticCore/Population.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticCore/Population.h
-../GeneticCore/Chromosome.h
+../../GeneticCore/Chromosome.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticCore/Chromosome.h
 
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/SimpleParentSelectionStrategy.h
+/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h
 iterator
 -
 
@@ -105,18 +97,16 @@ iterator
 -
 random
 -
-GeneticStrategies/ParentSelectionStrategy.h
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy.h
-GeneticCore/Population.h
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticCore/Population.h
+GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
+/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
 GeneticAlgorithm.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticAlgorithm.h
 Builder/Builder.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/Builder/Builder.h
 Builder/SimpleGeneticAlgorithmBuilder.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/Builder/SimpleGeneticAlgorithmBuilder.h
-GeneticStrategies/SimpleParentSelectionStrategy.h
-/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/SimpleParentSelectionStrategy.h
+GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h
+/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h
 GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h
 /Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h
 

@@ -12,6 +12,7 @@
 #include "GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h"
 #include "GeneticStrategies/MutationStrategies/MutationStrategy.h"
 #include "GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h"
+#include "GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h"
     class GeneticAlgorithm {
 
     public:
@@ -54,6 +55,7 @@
                 parentSelectionStrategy->FillMatingPool(generations[generation] , mating_pool);
                 //CrossOver
                 Population new_population = xOverStrategy->CreateChildren(mating_pool);
+                //survivalStrategy->pickIndividuals4NextGen()
                 generations.push_back(new_population);
                 //Mutation
                 //mutationStrategy.Mutate(new_population); TODO Not yet Implemented

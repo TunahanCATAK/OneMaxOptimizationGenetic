@@ -12,7 +12,7 @@
     public:
 
     public:
-        virtual Population CreateChildren(std::vector<Chromosome>) = 0;
+        virtual Population&& CreateChildren(std::vector<Chromosome>) = 0;
 
         virtual std::vector<Chromosome> PerformCrossOver(std::vector<Chromosome>) = 0;
 

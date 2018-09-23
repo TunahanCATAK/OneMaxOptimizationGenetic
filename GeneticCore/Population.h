@@ -16,10 +16,26 @@ public:
 
     Population(){}
 
-    Population(const Population &pop){
-        population_pool = pop.population_pool;
-        population_size = pop.population_size;
-        population_average = pop.population_average;
+    Population(const Population& other){
+        log("Copy Constructure for Population is called");
+        population_size = other.population_size;
+        population_pool = std::move(other.population_pool);
+        population_average = getPopulationAverage();
+    }
+
+    Population(Population&& other) noexcept{
+
+        log("Move Constructure of Population is Called");
+        population_pool = std::move(other.population_pool);
+        population_size = other.population_size;
+        population_average = getPopulationAverage();
+    }
+
+    Population&operator=(const Population& other){
+        log("Copy Assignment for Population is Called");
+        population_size = other.population_size;
+        population_pool = std::move(other.population_pool);
+        population_average = getPopulationAverage();
     }
 
     Population(int pop_size){
@@ -43,7 +59,14 @@ public:
 
         return population_average;
     }
+
+private:
+    void log(const char* msg)
+    {
+        std::cout << msg << std::endl;
+    }
 };
+
 
 
 #endif //ONEMAXPROBLEM_POPULATION_H

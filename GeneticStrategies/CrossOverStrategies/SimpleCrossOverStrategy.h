@@ -8,7 +8,7 @@
     class SimpleCrossOverStrategy : public CrossOverStrategy {
 
     public:
-        Population CreateChildren(std::vector<Chromosome> mating_pool){
+        Population&& CreateChildren(std::vector<Chromosome> mating_pool){
             Population children_for_next_gen;
             for (int i = 0; i < mating_pool.size()/2; i++) {
                 std::vector<Chromosome> parents = PickParentsUp(mating_pool);
@@ -18,7 +18,7 @@
                 children_for_next_gen.population_size += 2; //TODO check if it is still needed
             }
 
-            return children_for_next_gen;
+            return std::move(children_for_next_gen);
         }
 
         virtual std::vector<Chromosome> PerformCrossOver(std::vector<Chromosome> parents) {

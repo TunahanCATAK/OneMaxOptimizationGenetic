@@ -91,9 +91,6 @@
 		<Unit filename="/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticAlgorithm.h">
 			<Option target="OneMaxProblem"/>
 		</Unit>
-		<Unit filename="/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/GeneticCore/Chromosome.h">
-			<Option target="OneMaxProblem"/>
-		</Unit>
 		<Unit filename="/Users/mcangny/CLionProjects/OneMaxOptimizationGenetic/main.cpp">
 			<Option target="OneMaxProblem"/>
 		</Unit>
