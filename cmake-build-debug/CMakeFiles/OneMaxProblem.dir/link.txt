@@ -1,1 +1,0 @@
-/usr/bin/g++  -std=c++14 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/OneMaxProblem.dir/main.cpp.o CMakeFiles/OneMaxProblem.dir/GeneticAlgorithm.cpp.o  -o OneMaxProblem 

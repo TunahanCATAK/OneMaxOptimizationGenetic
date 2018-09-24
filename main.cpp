@@ -22,7 +22,7 @@ static int GENE_SIZE = 5;
 int main(){
     /* initialize random seed: */
     srand (time(NULL));
-
+    Population pop(100);
     auto ga_builder = SimpleGeneticAlgorithmBuilder(pop, 2);
     ga_builder.setParentSelectionStrategy(new SimpleParentSelectionStrategy());
     ga_builder.setCrossOverStrategy(new SimpleCrossOverStrategy());
