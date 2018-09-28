@@ -3,7 +3,7 @@ project(OneMaxProblem)
 
 set(CMAKE_CXX_STANDARD 14)
 set (CMAKE_CXX_FLAGS  -std=c++14)
-
+add_subdirectory(Test/UnitTest)
 add_executable(OneMaxProblem
         main.cpp
         Builder/SimpleGeneticAlgorithmBuilder.h
@@ -23,3 +23,4 @@ add_executable(OneMaxProblem
         GeneticCore/
         GeneticAlgorithm.cpp
         )
+
