@@ -14,6 +14,8 @@ add_executable(OneMaxProblem
         GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h
         GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.cpp
         GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h
+        GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.cpp
+        GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h
         GeneticCore/Chromosome.cpp
         GeneticCore/Chromosome.h
         GeneticCore/Population.cpp
