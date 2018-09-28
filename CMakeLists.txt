@@ -6,6 +6,8 @@ set (CMAKE_CXX_FLAGS  -std=c++14)
 
 add_executable(OneMaxProblem
         main.cpp
+        Builder/SimpleGeneticAlgorithmBuilder.h
+        Builder/SimpleGeneticAlgorithmBuilder.cpp
         Builder/
         GeneticStrategies/
         GeneticCore/
