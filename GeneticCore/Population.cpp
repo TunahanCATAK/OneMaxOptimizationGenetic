@@ -36,6 +36,7 @@ Population& Population::operator=(const Population& other){
     population_size = other.population_size;
     population_pool = std::move(other.population_pool);
     population_average = getPopulationAverage();
+    return *this;
 }
 
 void Population::calculateProbabilities(){
