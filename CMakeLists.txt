@@ -10,6 +10,10 @@ add_executable(OneMaxProblem
         Builder/SimpleGeneticAlgorithmBuilder.cpp
         Builder/
         GeneticStrategies/
+        GeneticStrategies/CrossOverStrategies/CrossOverStrategy.cpp
+        GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h
+        GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.cpp
+        GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h
         GeneticCore/Chromosome.cpp
         GeneticCore/Chromosome.h
         GeneticCore/Population.cpp
