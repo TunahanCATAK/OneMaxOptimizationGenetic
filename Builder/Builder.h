@@ -5,7 +5,7 @@
 #ifndef ONEMAXPROBLEM_BUILDER_H
 #define ONEMAXPROBLEM_BUILDER_H
 
-#include "../GeneticStrategies/ParentSelectionStrategy.h"
+#include "../GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h"
 #include "../GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h"
 #include "../GeneticStrategies/MutationStrategies/MutationStrategy.h"
 #include "../GeneticAlgorithm.h"

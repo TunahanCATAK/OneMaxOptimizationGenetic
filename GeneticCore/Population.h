@@ -14,36 +14,21 @@ public:
     float population_average;
     std::vector<Chromosome> population_pool;
 
-    Population(){}
+    Population();
+    Population(int);
 
-    Population(const Population &pop){
-        population_pool = pop.population_pool;
-        population_size = pop.population_size;
-        population_average = pop.population_average;
-    }
+    Population(const Population&);
+    Population(Population&&) noexcept;
 
-    Population(int pop_size){
-        population_size = pop_size;
-        population_pool = std::vector<Chromosome>(population_size);
+    Population& operator=(const Population& other);
 
-        getPopulationAverage();
-    }
+    void calculateProbabilities();
+    float getPopulationAverage();
 
-    void calculateProbabilities(){
-        std::for_each(std::begin(population_pool), std::end(population_pool),
-                      [=](Chromosome &chro){ chro.calculateExpectedNumber(population_average);});
-    }
-
-    float getPopulationAverage(){
-        int sum = 0;
-        std::for_each(std::begin(population_pool), std::end(population_pool),
-                      [&sum](Chromosome chro){ sum += chro.calculateFitness(); });
-
-        population_average = (float)sum/population_pool.size();
-
-        return population_average;
-    }
+private:
+    void log(const char*);
 };
+
 
 
 #endif //ONEMAXPROBLEM_POPULATION_H

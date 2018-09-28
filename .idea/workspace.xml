@@ -15,64 +15,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0772fe4d-7137-47c6-8a27-6b130cca6be2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Builder/Builder.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/Builder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/SimpleGeneticAlgorithmBuilder.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/SimpleGeneticAlgorithmBuilder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticAlgorithm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticAlgorithm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticCore/Chromosome.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticCore/Chromosome.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticCore/Population.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticCore/Population.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/MutationStrategies/MutationStrategy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/MutationStrategies/MutationStrategy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/SimpleParentSelectionStrategy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/SimpleParentSelectionStrategy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mater.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mater.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SteadyStateSurvivalStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SteadystateSurvivalStrategy.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/Builder.h" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/Builder.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticAlgorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticAlgorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticAlgorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticAlgorithm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticCore/Population.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticCore/Population.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticStrategies/SimpleParentSelectionStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticStrategies/SimpleParentSelectionStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/GenerativeSurvivalStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/GenerativeSurvivalStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OneMaxProblem" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OneMaxProblem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OneMaxProblem.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OneMaxProblem.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -86,63 +52,69 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="217">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#39#80#0" expanded="true" />
+                <element signature="e#295#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneticAlgorithm.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Population.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneticCore/Population.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterator" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="1243" selection-start-line="1243" selection-end-line="1243" />
+              <folding>
+                <element signature="e#45309#45334#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chromosome.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="176" selection-start-line="176" selection-end-line="176" />
+              <folding>
+                <element signature="e#5815#5848#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneticAlgorithm.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeneticAlgorithm.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="197">
+              <caret line="56" column="41" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="41" />
               <folding>
-                <element signature="e#127#157#0" expanded="true" />
+                <element signature="e#127#168#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mater.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mater.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Mater.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mater.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="e#44#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneticAlgorithm.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticAlgorithm.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#44#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleGeneticAlgorithmBuilder.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Builder/SimpleGeneticAlgorithmBuilder.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -150,33 +122,27 @@
       <file leaf-file-name="Builder.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Builder/Builder.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="20">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+              <folding>
+                <element signature="e#109#188#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParentSelectionStrategy.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="220">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleParentSelectionStrategy.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticStrategies/SimpleParentSelectionStrategy.cpp">
+      <file leaf-file-name="link.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/link.txt">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleParentSelectionStrategy.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticStrategies/SimpleParentSelectionStrategy.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -217,15 +183,22 @@
         <option value="$PROJECT_DIR$/MutationStrategy.h" />
         <option value="$PROJECT_DIR$/SurvivalSelectionStrategy.h" />
         <option value="$PROJECT_DIR$/SimpleParentSelectionStrategy.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/GeneticStrategies/SimpleCrossOverStrategy.h" />
         <option value="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategy.h" />
-        <option value="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h" />
-        <option value="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h" />
-        <option value="$PROJECT_DIR$/Builder/Builder.h" />
         <option value="$PROJECT_DIR$/GeneticStrategies/SimpleParentSelectionStrategy.h" />
         <option value="$PROJECT_DIR$/Builder/SimpleGeneticAlgorithmBuilder.h" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h" />
+        <option value="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SteadyStateSurvivalStrategy.h" />
+        <option value="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/GenerativeSurvivalStrategy.h" />
+        <option value="$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h" />
         <option value="$PROJECT_DIR$/GeneticAlgorithm.h" />
+        <option value="$PROJECT_DIR$/GeneticAlgorithm.cpp" />
+        <option value="$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Builder/Builder.h" />
+        <option value="$PROJECT_DIR$/GeneticCore/Chromosome.h" />
+        <option value="$PROJECT_DIR$/GeneticCore/Population.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -252,6 +225,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="OneMaxOptimizationGenetic" type="cbb8eebc:String" user="OneMaxOptimizationGenetic" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="OneMaxOptimizationGenetic" type="cbb8eebc:String" user="OneMaxOptimizationGenetic" />
+              <item name="GeneticStrategies" type="cbb8eebc:String" user="GeneticStrategies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="OneMaxOptimizationGenetic" type="cbb8eebc:String" user="OneMaxOptimizationGenetic" />
+              <item name="GeneticStrategies" type="cbb8eebc:String" user="GeneticStrategies" />
+              <item name="SurvivalStrategies" type="cbb8eebc:String" user="SurvivalStrategies" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,20 +266,12 @@
             </path>
             <path>
               <item name="OneMaxProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneMaxOptimizationGenetic" type="462c0819:PsiDirectoryNode" />
-              <item name="GeneticStrategies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneMaxProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneMaxOptimizationGenetic" type="462c0819:PsiDirectoryNode" />
-              <item name="GeneticStrategies" type="462c0819:PsiDirectoryNode" />
-              <item name="CrossOverStrategies" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,15 +279,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GeneticStrategies" />
+      <recent name="$PROJECT_DIR$/ParentSelectionStrategy" />
       <recent name="D:\OneMaxOptimizationGenetic\Builder" />
       <recent name="D:\OneMaxOptimizationGenetic\GeneticStrategies\SurvivalStrategies" />
       <recent name="D:\OneMaxOptimizationGenetic\GeneticStrategies\MutationStrategies" />
-      <recent name="D:\OneMaxOptimizationGenetic\GeneticStrategies\CrossOverStrategies" />
-      <recent name="D:\OneMaxOptimizationGenetic\GeneticStrategies" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,30 +324,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81056000" />
+    <option name="totallyTimeSpent" value="90832000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1864" height="1098" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1928494" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931034" visible="true" weight="0.18506752" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.30994764" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3048276" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32984293" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3277487" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29633507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32689655" />
+      <window_info id="Structure" order="1" sideWeight="0.5006896" side_tool="true" weight="0.18506752" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27724138" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25925925" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25241378" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1928494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3277487" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29633507" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25925925" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.30994764" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32984293" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,33 +369,39 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="37" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="CidrExceptionBreakpoint">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>pop2 = Population(10)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pop2 = new Population(10)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/7/bits/stl_uninitialized.h" />
-    <entry file="file:///usr/include/c++/7/bits/stl_algo.h" />
-    <entry file="file:///usr/include/c++/7/bits/stl_vector.h" />
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3045">
-          <caret line="203" column="23" lean-forward="true" selection-start-line="203" selection-start-column="23" selection-end-line="203" selection-end-column="23" />
-          <folding>
-            <element signature="e#39#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/predefined_ops.h" />
-    <entry file="file:///usr/include/c++/7/bits/range_access.h" />
-    <entry file="file:///usr/include/c++/7/bits/stl_numeric.h" />
-    <entry file="file://$PROJECT_DIR$/chromosome.hpp" />
-    <entry file="file:///usr/include/c++/7/bits/allocator.h" />
-    <entry file="file:///usr/include/c++/7/iostream" />
-    <entry file="file:///usr/include/c++/7/ext/new_allocator.h" />
-    <entry file="file:///usr/include/c++/7/bits/stl_vector.h" />
-    <entry file="file:///usr/include/c++/7/bits/stl_uninitialized.h" />
-    <entry file="file:///usr/include/c++/7/bits/stl_algo.h" />
     <entry file="file:///usr/include/c++/7/bits/stl_algobase.h" />
     <entry file="file:///usr/include/c++/7/bits/stream_iterator.h" />
     <entry file="file:///usr/include/c++/6/bits/stl_algo.h" />
@@ -406,13 +410,7 @@
     <entry file="file:///usr/include/c++/6/ext/alloc_traits.h" />
     <entry file="file:///usr/include/c++/6/bits/stream_iterator.h" />
     <entry file="file:///usr/include/c++/6/bits/range_access.h" />
-    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/vector">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="1177" column="14" selection-start-line="1177" selection-start-column="14" selection-end-line="1177" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/vector" />
     <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -420,44 +418,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/MinGW/include/rpcndr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="214" column="2" selection-start-line="214" selection-start-column="2" selection-end-line="214" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xutility">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="3304" column="8" selection-start-line="3304" selection-start-column="8" selection-end-line="3304" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://C:/MinGW/include/rpcndr.h" />
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xutility" />
     <entry file="file://$PROJECT_DIR$/Builder/SimpleGeneticAlgorithmBuilder.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticStrategies/MutationStrategies/MutationStrategy.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticStrategies/MutationStrategies/MutationStrategy.h">
@@ -467,41 +433,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticCore/Population.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="18" column="104" selection-start-line="18" selection-start-column="104" selection-end-line="18" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy.cpp">
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h" />
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -513,75 +449,210 @@
     <entry file="file://$PROJECT_DIR$/Builder/Builder.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Builder/Builder.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticStrategies/SimpleParentSelectionStrategy.cpp">
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticStrategies/SimpleParentSelectionStrategy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy.h">
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Builder/SimpleGeneticAlgorithmBuilder.h">
+    <entry file="file://$PROJECT_DIR$/Mater.h" />
+    <entry file="file://$PROJECT_DIR$/Mater.cpp" />
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/MutationStrategies/MutationStrategy.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mater.h">
+    <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2046" column="17" selection-start-line="2046" selection-start-column="17" selection-end-line="2046" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mater.cpp">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="17" />
+        <state>
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SteadystateSurvivalStrategy.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/GenerativeSurvivalStrategy.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SteadyStateSurvivalStrategy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <element signature="e#44#63#0" expanded="true" />
+            <element signature="e#147#185#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/GenerativeSurvivalStrategy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Builder/SimpleGeneticAlgorithmBuilder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticAlgorithm.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#44#94#0" expanded="true" />
+            <element signature="e#45#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="110">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/GeneticAlgorithm.cpp.o">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OneMaxProblem.dir/link.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Builder/Builder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
           <folding>
-            <element signature="e#39#80#0" expanded="true" />
+            <element signature="e#109#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+          <folding>
+            <element signature="e#5815#5848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="1243" selection-start-line="1243" selection-end-line="1243" />
+          <folding>
+            <element signature="e#45309#45334#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticAlgorithm.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="197">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="41" />
           <folding>
-            <element signature="e#127#157#0" expanded="true" />
+            <element signature="e#127#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="376" column="9" selection-start-line="376" selection-start-column="9" selection-end-line="376" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticCore/Population.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#39#80#0" expanded="true" />
+            <element signature="e#295#324#0" expanded="true" />
           </folding>
         </state>
       </provider>

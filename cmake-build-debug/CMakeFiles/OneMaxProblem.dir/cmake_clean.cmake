@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "OneMaxProblem.pdb"
   "OneMaxProblem.exe"
   "OneMaxProblem.exe.manifest"
-  "libOneMaxProblem.dll.a"
+  "OneMaxProblem.lib"
 )
 
 # Per-language clean rules from dependency scanning.

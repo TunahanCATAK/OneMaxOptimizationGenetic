@@ -4,4 +4,22 @@ project(OneMaxProblem)
 set(CMAKE_CXX_STANDARD 14)
 set (CMAKE_CXX_FLAGS  -std=c++14)
 
-add_executable(OneMaxProblem GeneticCore/Chromosome.h  main.cpp GeneticStrategies/ GeneticCore/ Builder/ GeneticAlgorithm.cpp)
+add_executable(OneMaxProblem
+        main.cpp
+        Builder/SimpleGeneticAlgorithmBuilder.h
+        Builder/SimpleGeneticAlgorithmBuilder.cpp
+        Builder/
+        GeneticStrategies/
+        GeneticStrategies/CrossOverStrategies/CrossOverStrategy.cpp
+        GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h
+        GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.cpp
+        GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h
+        GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.cpp
+        GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h
+        GeneticCore/Chromosome.cpp
+        GeneticCore/Chromosome.h
+        GeneticCore/Population.cpp
+        GeneticCore/Population.h
+        GeneticCore/
+        GeneticAlgorithm.cpp
+        )

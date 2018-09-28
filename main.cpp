@@ -6,12 +6,12 @@
 #include <algorithm>
 #include <iterator>
 #include <random>
-#include "GeneticStrategies/ParentSelectionStrategy.h"
-#include "GeneticCore/Population.h"
+#include "GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h"
+//#include "GeneticCore/Population.h"
 #include "GeneticAlgorithm.h"
 #include "Builder/Builder.h"
 #include "Builder/SimpleGeneticAlgorithmBuilder.h"
-#include "GeneticStrategies/SimpleParentSelectionStrategy.h"
+#include "GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h"
 #include "GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h"
 using namespace std;
 
@@ -22,9 +22,8 @@ static int GENE_SIZE = 5;
 int main(){
     /* initialize random seed: */
     srand (time(NULL));
-
-    Population pop = Population(100);
-    auto ga_builder = SimpleGeneticAlgorithmBuilder(pop, 5);
+    Population pop(100);
+    auto ga_builder = SimpleGeneticAlgorithmBuilder(pop, 2);
     ga_builder.setParentSelectionStrategy(new SimpleParentSelectionStrategy());
     ga_builder.setCrossOverStrategy(new SimpleCrossOverStrategy());
 

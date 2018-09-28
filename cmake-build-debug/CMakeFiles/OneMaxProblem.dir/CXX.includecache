@@ -7,30 +7,20 @@
 #IncludeRegexTransform: 
 
 D:/OneMaxOptimizationGenetic/Builder/Builder.h
-
-D:/OneMaxOptimizationGenetic/Builder/SimpleGeneticAlgorithmBuilder.h
-../main.cpp
-D:/OneMaxOptimizationGenetic/main.cpp
-
-D:/OneMaxOptimizationGenetic/GeneticAlgorithm.cpp
-Builder/SimpleGeneticAlgorithmBuilder.h
-D:/OneMaxOptimizationGenetic/Builder/SimpleGeneticAlgorithmBuilder.h
-GeneticCore/Population.h
-D:/OneMaxOptimizationGenetic/GeneticCore/Population.h
-GeneticCore/Chromosome.h
-D:/OneMaxOptimizationGenetic/GeneticCore/Chromosome.h
-GeneticStrategies/ParentSelectionStrategy.h
-D:/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy.h
-vector
--
-stdlib.h
--
-GeneticAlgorithm.h
+../GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
+D:/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
+../GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h
+D:/OneMaxOptimizationGenetic/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h
+../GeneticStrategies/MutationStrategies/MutationStrategy.h
+D:/OneMaxOptimizationGenetic/GeneticStrategies/MutationStrategies/MutationStrategy.h
+../GeneticAlgorithm.h
 D:/OneMaxOptimizationGenetic/GeneticAlgorithm.h
 
+D:/OneMaxOptimizationGenetic/Builder/SimpleGeneticAlgorithmBuilder.h
+Builder.h
+D:/OneMaxOptimizationGenetic/Builder/Builder.h
+
 D:/OneMaxOptimizationGenetic/GeneticAlgorithm.h
-GeneticStrategies/.
-D:/OneMaxOptimizationGenetic/GeneticStrategies/.
 stdlib.h
 -
 ostream
@@ -45,25 +35,55 @@ GeneticStrategies/MutationStrategies/MutationStrategy.h
 D:/OneMaxOptimizationGenetic/GeneticStrategies/MutationStrategies/MutationStrategy.h
 GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h
 D:/OneMaxOptimizationGenetic/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h
+GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
+D:/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
 
 D:/OneMaxOptimizationGenetic/GeneticCore/Chromosome.h
+stdlib.h
+-
+vector
+-
+iostream
+-
+cmath
+-
+algorithm
+-
 
 D:/OneMaxOptimizationGenetic/GeneticCore/Population.h
+Chromosome.h
+D:/OneMaxOptimizationGenetic/GeneticCore/Chromosome.h
 
 D:/OneMaxOptimizationGenetic/GeneticStrategies/CrossOverStrategies/CrossOverStrategy.h
+vector
+-
+stdlib.h
+-
+iterator
+-
+
+D:/OneMaxOptimizationGenetic/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h
 
 D:/OneMaxOptimizationGenetic/GeneticStrategies/MutationStrategies/MutationStrategy.h
 
-D:/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy.h
+D:/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
+../../GeneticCore/Population.h
+D:/OneMaxOptimizationGenetic/GeneticCore/Population.h
+../../GeneticCore/Chromosome.h
+D:/OneMaxOptimizationGenetic/GeneticCore/Chromosome.h
 
-D:/OneMaxOptimizationGenetic/GeneticStrategies/SimpleParentSelectionStrategy.h
+D:/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h
+iterator
+-
 
 D:/OneMaxOptimizationGenetic/GeneticStrategies/SurvivalStrategies/SurvivalSelectionStrategy.h
 
 D:/OneMaxOptimizationGenetic/main.cpp
 stdlib.h
 -
-ostream
+iostream
+-
+time.h
 -
 algorithm
 -
@@ -71,16 +91,16 @@ iterator
 -
 random
 -
-GeneticStrategies/ParentSelectionStrategy.h
-D:/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy.h
-GeneticCore/Population.h
-D:/OneMaxOptimizationGenetic/GeneticCore/Population.h
+GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
+D:/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/ParentSelectionStrategy.h
 GeneticAlgorithm.h
 D:/OneMaxOptimizationGenetic/GeneticAlgorithm.h
 Builder/Builder.h
 D:/OneMaxOptimizationGenetic/Builder/Builder.h
 Builder/SimpleGeneticAlgorithmBuilder.h
 D:/OneMaxOptimizationGenetic/Builder/SimpleGeneticAlgorithmBuilder.h
-GeneticStrategies/SimpleParentSelectionStrategy.h
-D:/OneMaxOptimizationGenetic/GeneticStrategies/SimpleParentSelectionStrategy.h
+GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h
+D:/OneMaxOptimizationGenetic/GeneticStrategies/ParentSelectionStrategy/SimpleParentSelectionStrategy.h
+GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h
+D:/OneMaxOptimizationGenetic/GeneticStrategies/CrossOverStrategies/SimpleCrossOverStrategy.h
 

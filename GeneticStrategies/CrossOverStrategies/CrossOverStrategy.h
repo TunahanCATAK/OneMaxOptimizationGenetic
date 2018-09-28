@@ -6,30 +6,16 @@
 #define ONEMAXPROBLEM_CROSSOVERSTRATEGY_H
 
 #include <vector>
-#include <stdlib.h>
 #include <iterator>
-    class CrossOverStrategy {
-    public:
+#include "../../GeneticCore/Population.h"
+#include "../../GeneticCore/Chromosome.h"
 
-    public:
-        virtual Population CreateChildren(std::vector<Chromosome>) = 0;
-
-        virtual std::vector<Chromosome> PerformCrossOver(std::vector<Chromosome>) = 0;
-
-        virtual std::vector<Chromosome> PickParentsUp(std::vector<Chromosome> mating_pool){
-            int rand1 = rand() % mating_pool.size();
-            int rand2 = rand() % mating_pool.size();
-
-//            std::pair<Chromosome, Chromosome> result;
-//            result.first = mating_pool[rand1];
-//            result.second = mating_pool[rand2];
-            std::vector<Chromosome> result;
-            result.push_back(mating_pool[rand1]);
-            result.push_back(mating_pool[rand2]);
-
-            return result;
-        };
-    };
+class CrossOverStrategy {
+public:
+    virtual Population&& CreateChildren(std::vector<Chromosome>) = 0;
+    virtual std::vector<Chromosome> PerformCrossOver(std::vector<Chromosome>) = 0;
+    virtual std::vector<Chromosome> PickParentsUp(std::vector<Chromosome>);
+};
 
 
 

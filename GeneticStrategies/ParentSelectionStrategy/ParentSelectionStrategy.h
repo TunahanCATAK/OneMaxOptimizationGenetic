@@ -5,8 +5,8 @@
 #ifndef ONEMAXPROBLEM_PARENTSELECTIONSTRATEGY_H
 #define ONEMAXPROBLEM_PARENTSELECTIONSTRATEGY_H
 
-#include "../GeneticCore/Population.h"
-#include "../GeneticCore/Chromosome.h"
+#include "../../GeneticCore/Population.h"
+#include "../../GeneticCore/Chromosome.h"
 
 
 class ParentSelectionStrategy {

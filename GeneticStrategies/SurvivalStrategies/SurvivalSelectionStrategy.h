@@ -5,11 +5,13 @@
 #ifndef ONEMAXPROBLEM_SURVIVALSELECTIONSTRATEGY_H
 #define ONEMAXPROBLEM_SURVIVALSELECTIONSTRATEGY_H
 
-    class SurvivalSelectionStrategy {
 
-    };
+class SurvivalSelectionStrategy {
+public:
+    Population&& pickIndividuals4NextGen();
 
 
+};
 
 
 #endif //ONEMAXPROBLEM_SURVIVALSELECTIONSTRATEGY_H

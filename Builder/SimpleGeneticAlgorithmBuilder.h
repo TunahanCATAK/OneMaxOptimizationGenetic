@@ -7,25 +7,13 @@
 
 #include "Builder.h"
 
-    class SimpleGeneticAlgorithmBuilder : public Builder {
-
-    public:
-        SimpleGeneticAlgorithmBuilder(Population& initial_pop, size_t max_gen_size) {
-            _result = new GeneticAlgorithm(initial_pop, max_gen_size);
-        }
-
-        void setParentSelectionStrategy(ParentSelectionStrategy* rep) {
-            _result->setParentSelectionStrategy(rep);
-        }
-
-        void setCrossOverStrategy(CrossOverStrategy* xover) {
-            _result->setCrossOverStrategy(xover);
-        }
-
-        void setMutationStrategy(MutationStrategy* mutation) {
-            _result->setMutationStrategy(mutation);
-        }
-    };
+class SimpleGeneticAlgorithmBuilder : public Builder {
+public:
+    SimpleGeneticAlgorithmBuilder(Population&, size_t);
+    void setParentSelectionStrategy(ParentSelectionStrategy*);
+    void setCrossOverStrategy(CrossOverStrategy*);
+    void setMutationStrategy(MutationStrategy*);
+};
 
 
 #endif //ONEMAXPROBLEM_SIMPLEGENETICALGORITHMBUILDER_H
