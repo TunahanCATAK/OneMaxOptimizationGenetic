@@ -16,16 +16,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0772fe4d-7137-47c6-8a27-6b130cca6be2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/UnitTest/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/UnitTest/TestMain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/UnitTest/catch.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneticCore/Chromosome.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticCore/Chromosome.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneticCore/Chromosome.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticCore/Chromosome.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/UnitTest/TestMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnitTest/TestMain.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,80 +67,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Population.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeneticCore/Population.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="360">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticAlgorithm.cpp">
+      <file leaf-file-name="Chromosome.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="37" column="44" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticAlgorithm.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="341">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding>
-                <element signature="e#127#168#0" expanded="true" />
+                <element signature="e#115#134#0" expanded="true" />
+                <element signature="e#220#232#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticCore/Population.cpp">
+      <file leaf-file-name="Chromosome.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="375">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="iostream" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/iostream">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="582">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestMain.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/UnitTest/TestMain.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+              <folding>
+                <element signature="e#70#90#0" expanded="true" />
+                <element signature="e#457#470#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stl_vector.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="952" column="6" selection-start-line="952" selection-start-column="6" selection-end-line="952" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vector.tcc" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/vector.tcc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catch.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/UnitTest/catch.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state relative-caret-position="275">
+              <caret line="508" selection-start-line="508" selection-end-line="508" />
               <folding>
                 <element signature="e#673#704#0" expanded="true" />
-                <element signature="e#728#757#0" expanded="true" />
                 <element signature="e#819#1241#0" expanded="true" />
-                <element signature="e#1265#1448#0" expanded="true" />
                 <element signature="e#1853#1893#0" expanded="true" />
                 <element signature="e#2041#2195#0" expanded="true" />
-                <element signature="e#2260#2290#0" expanded="true" />
-                <element signature="e#3541#3575#0" expanded="true" />
                 <element signature="e#3615#3649#0" expanded="true" />
                 <element signature="e#3704#3761#0" expanded="true" />
                 <element signature="e#3788#4445#0" expanded="true" />
-                <element signature="e#4656#4699#0" expanded="true" />
                 <element signature="e#4945#4991#0" expanded="true" />
                 <element signature="e#5017#5110#0" expanded="true" />
                 <element signature="e#5282#5334#0" expanded="true" />
                 <element signature="e#5502#5550#0" expanded="true" />
                 <element signature="e#5669#5854#0" expanded="true" />
-                <element signature="e#6279#6315#0" expanded="true" />
                 <element signature="e#6508#6548#0" expanded="true" />
-                <element signature="e#7685#7722#0" expanded="true" />
                 <element signature="e#9091#9185#0" expanded="true" />
                 <element signature="e#9194#9211#0" expanded="true" />
                 <element signature="e#10769#10781#0" expanded="true" />
@@ -223,8 +237,6 @@
                 <element signature="e#40219#40235#0" expanded="true" />
                 <element signature="e#40708#40743#0" expanded="true" />
                 <element signature="e#41092#41111#0" expanded="true" />
-                <element signature="e#41510#41554#0" expanded="true" />
-                <element signature="e#41840#41895#0" expanded="true" />
                 <element signature="e#43291#43321#0" expanded="true" />
                 <element signature="e#43966#43981#0" expanded="true" />
                 <element signature="e#44507#44537#0" expanded="true" />
@@ -331,15 +343,10 @@
                 <element signature="e#149247#149264#0" expanded="true" />
                 <element signature="e#154684#154700#0" expanded="true" />
                 <element signature="e#157619#157677#0" expanded="true" />
-                <element signature="e#157715#158187#0" expanded="true" />
-                <element signature="e#158275#158374#0" expanded="true" />
                 <element signature="e#158493#158610#0" expanded="true" />
-                <element signature="e#159080#159099#0" expanded="true" />
-                <element signature="e#159821#160307#0" expanded="true" />
                 <element signature="e#173001#173137#0" expanded="true" />
                 <element signature="e#173242#173424#0" expanded="true" />
                 <element signature="e#173893#173975#0" expanded="true" />
-                <element signature="e#174040#174171#0" expanded="true" />
                 <element signature="e#174581#174599#0" expanded="true" />
                 <element signature="e#174707#174759#0" expanded="true" />
                 <element signature="e#187262#187279#0" expanded="true" />
@@ -374,7 +381,6 @@
                 <element signature="e#211032#211050#0" expanded="true" />
                 <element signature="e#211302#211320#0" expanded="true" />
                 <element signature="e#211445#211457#0" expanded="true" />
-                <element signature="e#215837#215941#0" expanded="true" />
                 <element signature="e#217568#217580#0" expanded="true" />
                 <element signature="e#217816#217828#0" expanded="true" />
                 <element signature="e#217947#217959#0" expanded="true" />
@@ -384,21 +390,12 @@
                 <element signature="e#224560#224692#0" expanded="true" />
                 <element signature="e#224858#224876#0" expanded="true" />
                 <element signature="e#233559#233577#0" expanded="true" />
-                <element signature="e#234248#234284#0" expanded="true" />
                 <element signature="e#238196#238292#0" expanded="true" />
-                <element signature="e#239204#239243#0" expanded="true" />
-                <element signature="e#242738#245529#0" expanded="true" />
                 <element signature="e#246243#246275#0" expanded="true" />
-                <element signature="e#248168#248364#0" expanded="true" />
                 <element signature="e#248472#250056#0" expanded="true" />
-                <element signature="e#250094#251460#0" expanded="true" />
-                <element signature="e#251677#251944#0" expanded="true" />
                 <element signature="e#252822#252839#0" expanded="true" />
                 <element signature="e#253389#253422#0" expanded="true" />
                 <element signature="e#253847#254107#0" expanded="true" />
-                <element signature="e#255614#255711#0" expanded="true" />
-                <element signature="e#258290#260811#0" expanded="true" />
-                <element signature="e#260867#260897#0" expanded="true" />
                 <element signature="e#267920#268348#0" expanded="true" />
                 <element signature="e#269128#269145#0" expanded="true" />
                 <element signature="e#275665#275677#0" expanded="true" />
@@ -411,8 +408,6 @@
                 <element signature="e#276927#276940#0" expanded="true" />
                 <element signature="e#287292#287309#0" expanded="true" />
                 <element signature="e#289646#289663#0" expanded="true" />
-                <element signature="e#289868#289904#0" expanded="true" />
-                <element signature="e#291280#291445#0" expanded="true" />
                 <element signature="e#293556#293568#0" expanded="true" />
                 <element signature="e#294420#294437#0" expanded="true" />
                 <element signature="e#297827#297844#0" expanded="true" />
@@ -439,75 +434,25 @@
                 <element signature="e#375149#375165#0" expanded="true" />
                 <element signature="e#376447#376459#0" expanded="true" />
                 <element signature="e#381902#381934#0" expanded="true" />
-                <element signature="e#383711#383744#0" expanded="true" />
                 <element signature="e#395513#395531#0" expanded="true" />
-                <element signature="e#396418#396452#0" expanded="true" />
                 <element signature="e#396948#397047#0" expanded="true" />
                 <element signature="e#408565#408582#0" expanded="true" />
                 <element signature="e#420063#420075#0" expanded="true" />
                 <element signature="e#433517#433535#0" expanded="true" />
-                <element signature="e#434089#434153#0" expanded="true" />
-                <element signature="e#434368#434423#0" expanded="true" />
                 <element signature="e#455501#455529#0" expanded="true" />
                 <element signature="e#455745#455860#0" expanded="true" />
                 <element signature="e#456016#456347#0" expanded="true" />
                 <element signature="e#456678#461861#0" expanded="true" />
                 <element signature="e#466699#471975#0" expanded="true" />
                 <element signature="e#472075#472214#0" expanded="true" />
-                <element signature="e#472238#472268#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="e#220#232#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/UnitTest/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/UnitTest/TestMain.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#70#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding>
-                <element signature="e#238#250#0" expanded="true" />
-                <element signature="e#310#322#0" expanded="true" />
-                <element signature="e#436#448#0" expanded="true" />
-                <element signature="e#661#673#0" expanded="true" />
-                <element signature="e#818#830#0" expanded="true" />
-                <element signature="e#1185#1197#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="Population.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneticCore/Population.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -575,10 +520,11 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Test/UnitTest/catch.h" />
         <option value="$PROJECT_DIR$/Test/UnitTest/catch.hpp" />
-        <option value="$PROJECT_DIR$/GeneticCore/Chromosome.h" />
         <option value="$PROJECT_DIR$/Test/UnitTest/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Test/UnitTest/TestMain.cpp" />
         <option value="$PROJECT_DIR$/GeneticCore/Chromosome.cpp" />
+        <option value="$PROJECT_DIR$/GeneticCore/FitnessCalculationStrategy.hpp" />
+        <option value="$PROJECT_DIR$/GeneticCore/Chromosome.h" />
+        <option value="$PROJECT_DIR$/Test/UnitTest/TestMain.cpp" />
       </list>
     </option>
   </component>
@@ -587,6 +533,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -611,25 +560,12 @@
             <path>
               <item name="OneMaxProblem" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneMaxOptimizationGenetic" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneMaxProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneMaxOptimizationGenetic" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneMaxProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneMaxOptimizationGenetic" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneMaxProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneMaxOptimizationGenetic" type="462c0819:PsiDirectoryNode" />
               <item name="GeneticCore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneMaxProblem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneMaxOptimizationGenetic" type="462c0819:PsiDirectoryNode" />
+              <item name="GeneticStrategies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OneMaxProblem" type="b2602c69:ProjectViewProjectNode" />
@@ -699,26 +635,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Catch.UnitTest">
-    <configuration name="UnitTest" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OneMaxProblem" TARGET_NAME="TestOneMaxProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OneMaxProblem" RUN_TARGET_NAME="TestOneMaxProblem" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+    <configuration name="UnitTest" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OneMaxProblem" TARGET_NAME="TestOneMaxProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OneMaxProblem" RUN_TARGET_NAME="TestOneMaxProblem" TEST_MODE="SUITE_TEST" />
     <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OneMaxProblem" TARGET_NAME="TestOneMaxProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OneMaxProblem" RUN_TARGET_NAME="TestOneMaxProblem" TEST_MODE="SUITE_TEST">
-      <method v="2">
+      <method>
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OneMaxProblem" TARGET_NAME="OneMaxProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OneMaxProblem" RUN_TARGET_NAME="OneMaxProblem">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOneMaxProblem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OneMaxProblem" TARGET_NAME="TestOneMaxProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OneMaxProblem" RUN_TARGET_NAME="TestOneMaxProblem">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OneMaxProblem" TARGET_NAME="OneMaxProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OneMaxProblem" RUN_TARGET_NAME="OneMaxProblem" />
+    <configuration name="TestOneMaxProblem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OneMaxProblem" TARGET_NAME="TestOneMaxProblem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OneMaxProblem" RUN_TARGET_NAME="TestOneMaxProblem" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.TestOneMaxProblem" />
@@ -744,44 +668,73 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnitTest - 2018.09.28 at 19h 02m 35s.xml">
+    <history-entry file="UnitTest - 2018.09.28 at 23h 23m 52s.xml">
       <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UnitTest - 2018.09.28 at 19h 51m 34s.xml">
+    <history-entry file="UnitTest - 2018.09.28 at 23h 34m 45s.xml">
       <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UnitTest - 2018.09.28 at 19h 52m 37s.xml">
+    <history-entry file="UnitTest - 2018.09.28 at 23h 39m 11s.xml">
       <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="UnitTest - 2018.09.28 at 19h 53m 03s.xml">
+    <history-entry file="UnitTest - 2018.09.28 at 23h 46m 59s.xml">
+      <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.29 at 00h 02m 08s.xml">
+      <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.29 at 00h 13m 05s.xml">
+      <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.29 at 00h 14m 05s.xml">
+      <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.29 at 00h 15m 21s.xml">
+      <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.29 at 00h 15m 49s.xml">
+      <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UnitTest - 2018.09.29 at 01h 04m 32s.xml">
       <configuration name="UnitTest" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95696000" />
+    <option name="totallyTimeSpent" value="103083000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1858" height="1096" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1175" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20022246" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32694355" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25925925" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184375" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.30990416" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29605964" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.30985916" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32957748" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.3290735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32769954" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29577464" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25915492" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20022246" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3290735" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29605964" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25925925" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32694355" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.30990416" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,6 +751,11 @@
           <line>25</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/GeneticCore/Chromosome.cpp</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -807,10 +765,36 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>*chromosome.</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>*chromosome-&gt;genes</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>*chromosome.genes</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chromosome.get()-&gt;genes</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chromosome-&gt;genes</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>pop2 = Population(10)</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -824,10 +808,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/6/bits/stl_vector.h" />
-    <entry file="file:///usr/include/c++/6/ext/alloc_traits.h" />
-    <entry file="file:///usr/include/c++/6/bits/stream_iterator.h" />
-    <entry file="file:///usr/include/c++/6/bits/range_access.h" />
     <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/vector" />
     <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake" />
     <entry file="file://C:/MinGW/include/rpcndr.h" />
@@ -892,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
@@ -917,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#147#185#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,9 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding>
-            <element signature="e#109#188#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,71 +942,76 @@
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector" />
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+        <state relative-caret-position="195">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding>
             <element signature="e#39#80#0" expanded="true" />
-            <element signature="e#295#324#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticCore/Population.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticCore/Population.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticAlgorithm.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#127#168#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticAlgorithm.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="44" />
+        <state>
+          <folding>
+            <element signature="e#44#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UnitTest/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/iostream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/vector.tcc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/UnitTest/catch.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        <state relative-caret-position="275">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
           <folding>
             <element signature="e#673#704#0" expanded="true" />
-            <element signature="e#728#757#0" expanded="true" />
             <element signature="e#819#1241#0" expanded="true" />
-            <element signature="e#1265#1448#0" expanded="true" />
             <element signature="e#1853#1893#0" expanded="true" />
             <element signature="e#2041#2195#0" expanded="true" />
-            <element signature="e#2260#2290#0" expanded="true" />
-            <element signature="e#3541#3575#0" expanded="true" />
             <element signature="e#3615#3649#0" expanded="true" />
             <element signature="e#3704#3761#0" expanded="true" />
             <element signature="e#3788#4445#0" expanded="true" />
-            <element signature="e#4656#4699#0" expanded="true" />
             <element signature="e#4945#4991#0" expanded="true" />
             <element signature="e#5017#5110#0" expanded="true" />
             <element signature="e#5282#5334#0" expanded="true" />
             <element signature="e#5502#5550#0" expanded="true" />
             <element signature="e#5669#5854#0" expanded="true" />
-            <element signature="e#6279#6315#0" expanded="true" />
             <element signature="e#6508#6548#0" expanded="true" />
-            <element signature="e#7685#7722#0" expanded="true" />
             <element signature="e#9091#9185#0" expanded="true" />
             <element signature="e#9194#9211#0" expanded="true" />
             <element signature="e#10769#10781#0" expanded="true" />
@@ -1113,8 +1092,6 @@
             <element signature="e#40219#40235#0" expanded="true" />
             <element signature="e#40708#40743#0" expanded="true" />
             <element signature="e#41092#41111#0" expanded="true" />
-            <element signature="e#41510#41554#0" expanded="true" />
-            <element signature="e#41840#41895#0" expanded="true" />
             <element signature="e#43291#43321#0" expanded="true" />
             <element signature="e#43966#43981#0" expanded="true" />
             <element signature="e#44507#44537#0" expanded="true" />
@@ -1221,15 +1198,10 @@
             <element signature="e#149247#149264#0" expanded="true" />
             <element signature="e#154684#154700#0" expanded="true" />
             <element signature="e#157619#157677#0" expanded="true" />
-            <element signature="e#157715#158187#0" expanded="true" />
-            <element signature="e#158275#158374#0" expanded="true" />
             <element signature="e#158493#158610#0" expanded="true" />
-            <element signature="e#159080#159099#0" expanded="true" />
-            <element signature="e#159821#160307#0" expanded="true" />
             <element signature="e#173001#173137#0" expanded="true" />
             <element signature="e#173242#173424#0" expanded="true" />
             <element signature="e#173893#173975#0" expanded="true" />
-            <element signature="e#174040#174171#0" expanded="true" />
             <element signature="e#174581#174599#0" expanded="true" />
             <element signature="e#174707#174759#0" expanded="true" />
             <element signature="e#187262#187279#0" expanded="true" />
@@ -1264,7 +1236,6 @@
             <element signature="e#211032#211050#0" expanded="true" />
             <element signature="e#211302#211320#0" expanded="true" />
             <element signature="e#211445#211457#0" expanded="true" />
-            <element signature="e#215837#215941#0" expanded="true" />
             <element signature="e#217568#217580#0" expanded="true" />
             <element signature="e#217816#217828#0" expanded="true" />
             <element signature="e#217947#217959#0" expanded="true" />
@@ -1274,21 +1245,12 @@
             <element signature="e#224560#224692#0" expanded="true" />
             <element signature="e#224858#224876#0" expanded="true" />
             <element signature="e#233559#233577#0" expanded="true" />
-            <element signature="e#234248#234284#0" expanded="true" />
             <element signature="e#238196#238292#0" expanded="true" />
-            <element signature="e#239204#239243#0" expanded="true" />
-            <element signature="e#242738#245529#0" expanded="true" />
             <element signature="e#246243#246275#0" expanded="true" />
-            <element signature="e#248168#248364#0" expanded="true" />
             <element signature="e#248472#250056#0" expanded="true" />
-            <element signature="e#250094#251460#0" expanded="true" />
-            <element signature="e#251677#251944#0" expanded="true" />
             <element signature="e#252822#252839#0" expanded="true" />
             <element signature="e#253389#253422#0" expanded="true" />
             <element signature="e#253847#254107#0" expanded="true" />
-            <element signature="e#255614#255711#0" expanded="true" />
-            <element signature="e#258290#260811#0" expanded="true" />
-            <element signature="e#260867#260897#0" expanded="true" />
             <element signature="e#267920#268348#0" expanded="true" />
             <element signature="e#269128#269145#0" expanded="true" />
             <element signature="e#275665#275677#0" expanded="true" />
@@ -1301,8 +1263,6 @@
             <element signature="e#276927#276940#0" expanded="true" />
             <element signature="e#287292#287309#0" expanded="true" />
             <element signature="e#289646#289663#0" expanded="true" />
-            <element signature="e#289868#289904#0" expanded="true" />
-            <element signature="e#291280#291445#0" expanded="true" />
             <element signature="e#293556#293568#0" expanded="true" />
             <element signature="e#294420#294437#0" expanded="true" />
             <element signature="e#297827#297844#0" expanded="true" />
@@ -1329,55 +1289,51 @@
             <element signature="e#375149#375165#0" expanded="true" />
             <element signature="e#376447#376459#0" expanded="true" />
             <element signature="e#381902#381934#0" expanded="true" />
-            <element signature="e#383711#383744#0" expanded="true" />
             <element signature="e#395513#395531#0" expanded="true" />
-            <element signature="e#396418#396452#0" expanded="true" />
             <element signature="e#396948#397047#0" expanded="true" />
             <element signature="e#408565#408582#0" expanded="true" />
             <element signature="e#420063#420075#0" expanded="true" />
             <element signature="e#433517#433535#0" expanded="true" />
-            <element signature="e#434089#434153#0" expanded="true" />
-            <element signature="e#434368#434423#0" expanded="true" />
             <element signature="e#455501#455529#0" expanded="true" />
             <element signature="e#455745#455860#0" expanded="true" />
             <element signature="e#456016#456347#0" expanded="true" />
             <element signature="e#456678#461861#0" expanded="true" />
             <element signature="e#466699#471975#0" expanded="true" />
             <element signature="e#472075#472214#0" expanded="true" />
-            <element signature="e#472238#472268#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="229">
+          <caret line="952" column="6" selection-start-line="952" selection-start-column="6" selection-end-line="952" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/UnitTest/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/GeneticCore/Population.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticCore/Population.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/UnitTest/TestMain.cpp">
+    <entry file="file://$PROJECT_DIR$/GeneticCore/FitnessCalculationStrategy.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#70#90#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="341">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding>
+            <element signature="e#115#134#0" expanded="true" />
             <element signature="e#220#232#0" expanded="true" />
           </folding>
         </state>
@@ -1385,15 +1341,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticCore/Chromosome.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="375">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UnitTest/TestMain.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
           <folding>
-            <element signature="e#238#250#0" expanded="true" />
-            <element signature="e#310#322#0" expanded="true" />
-            <element signature="e#436#448#0" expanded="true" />
-            <element signature="e#661#673#0" expanded="true" />
-            <element signature="e#818#830#0" expanded="true" />
-            <element signature="e#1185#1197#0" expanded="true" />
+            <element signature="e#70#90#0" expanded="true" />
+            <element signature="e#457#470#0" expanded="true" />
           </folding>
         </state>
       </provider>
