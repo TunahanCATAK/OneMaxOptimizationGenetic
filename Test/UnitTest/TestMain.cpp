@@ -18,10 +18,11 @@ public:
 
 template <typename  T>
 using ptr_chromosome = std::unique_ptr<Chromosome<T>>;
-void calculateProbabilities();
+
 class TestFixtureChromosome{
 public:
     //std::unique_ptr<Chromosome<std::string>> chromosome;
+
 
     TestFixtureChromosome(){
         //chromosome = std::unique_ptr<Chromosome>(new Chromosome());
@@ -127,11 +128,15 @@ SCENARIO_METHOD(TestFixtureChromosome, "Initialize a user defined type chromosom
         }
     }
 }
+float fit(Chromosome<int>* c){
+    return std::count(std::begin(c->genes), std::end(c->genes), 1);
 
+}
 SCENARIO_METHOD(TestFixtureChromosome, "Calculate Fitness Value with a given fitness function", "[chromosome_fitness]")
 {
     GIVEN("A int type chromosome with 5 genes")
     {
+
         ptr_chromosome<int> chromosome = ptr_chromosome<int>(new Chromosome<int>(5));
         GIVEN("and given a fitness function for our chromosome data")
         {
@@ -141,14 +146,12 @@ SCENARIO_METHOD(TestFixtureChromosome, "Calculate Fitness Value with a given fit
             chromosome.get()->genes.at(3) = 0;
             chromosome.get()->genes.at(4) = 1;
 
-            auto fitness = []()->float{
 
-            };
-
+            chromosome->FitnessFunc = &fit;
             WHEN("we tried to calculate fitness value of the chromosome")
             {
 
-                float fit_value = chromosome.get()->calculateFitness(fitness);
+                float fit_value = chromosome.get()->calculateFitness();
 
                 THEN("it should be equal to ")
                 {

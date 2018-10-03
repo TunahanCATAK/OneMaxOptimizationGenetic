@@ -2,14 +2,14 @@
 //// Created by z003j23c on 9/11/2018.
 ////
 //
-//#include <functional>
-//#include <iterator>
-//#include <random>
-//#include <iostream>
-//#include <algorithm>
-//#include <vector>
-//#include <stdlib.h>     /* srand, rand */
-//#include "Chromosome.h"
+#include <functional>
+#include <iterator>
+#include <random>
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <stdlib.h>     /* srand, rand */
+#include "Chromosome.h"
 //
 //template <class T>
 //Chromosome<T>::Chromosome() : Chromosome(5){}
@@ -29,11 +29,11 @@
 ////        genes[i] = num;
 ////    }
 //}
+
 //template <class T>
 //float Chromosome<T>::calculateFitness(){
-//    auto fitt_val = std::count(std::begin(genes), std::end(genes), 1);
-//    return fitt_val;
-//}
+//
+//};
 //template <class T>
 //void Chromosome<T>::calculateExpectedNumber(float average){
 //    this->expected_number = calculateFitness()/average;
@@ -50,3 +50,5 @@
 //    return std::round(expected_number) < std::round(left.expected_number);
 //}
 //
+
+
