@@ -12,7 +12,9 @@ class Population {
 public:
     int population_size;
     float population_average;
-    std::vector<Chromosome> population_pool;
+
+    template <typename T>
+    std::vector<Chromosome<T>> population_pool;
 
     Population();
     Population(int);

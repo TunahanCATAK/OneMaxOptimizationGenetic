@@ -18,10 +18,10 @@ public:
     int gene_size;
     std::vector<T> genes;
     float expected_number;
-    Chromosome(): Chromosome(0) { }
-    float (*FitnessFunc)(Chromosome<T>*);
+    float (*FitnessFunc)(Chromosome<T>*);  //TODO: it should be static function pointer or something else.
 
 public:
+    Chromosome(): Chromosome(0) { }
     Chromosome(std::vector<T>);
     Chromosome(int gene_size) {
         this->gene_size = gene_size;
@@ -36,8 +36,6 @@ public:
         auto fitt_val = this->FitnessFunc(this);
         return fitt_val;
     }
-
-    void calculateExpectedNumber(float);
 
     bool operator< (const Chromosome<T>&) const;
     friend std::ostream& operator<< (std::ostream& os, const Chromosome<T>& obj) {

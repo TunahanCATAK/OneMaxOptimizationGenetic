@@ -11,4 +11,4 @@ add_executable(TestOneMaxProblem
         #../../GeneticCore/Population.h
         ../../GeneticCore/Chromosome.cpp
         #../../GeneticCore/Population.cpp
-        TestMain.cpp)
+        TestChromosome.cpp)
