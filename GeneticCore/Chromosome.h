@@ -18,24 +18,18 @@ public:
     int gene_size;
     std::vector<T> genes;
     float expected_number;
-    float (*FitnessFunc)(Chromosome<T>*);  //TODO: it should be static function pointer or something else.
+    static std::function<float(Chromosome<T>*)> FitnessFunc;
+    //float (*FitnessFunc)(Chromosome<T>*);  //TODO: it should be static function pointer or something else.
 
 public:
-    Chromosome(): Chromosome(0) { }
+    Chromosome();
     Chromosome(std::vector<T>);
-    Chromosome(int gene_size) {
-        this->gene_size = gene_size;
-
-        this->genes = std::vector<T>(gene_size);
-    };
+    Chromosome(int gene_size);
 
     //TODO: is it really needed at here? 
     Chromosome(const Chromosome<T> &) = default;
 
-    float calculateFitness(){
-        auto fitt_val = this->FitnessFunc(this);
-        return fitt_val;
-    }
+    float calculateFitness();
 
     bool operator< (const Chromosome<T>&) const;
     friend std::ostream& operator<< (std::ostream& os, const Chromosome<T>& obj) {

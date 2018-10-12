@@ -40,7 +40,7 @@ SCENARIO_METHOD(TestFixtureChromosome, "Chromosome Initialization with String", 
     {
         ptr_chromosome<std::string> chromosome;
 
-        WHEN("A chromosome created with a string constructure")
+        WHEN("A chromosome created with a string constructor")
         {
             //chromosome = type_ptr_chromosome_string(new Chromosome<std::string>());
             chromosome = ptr_chromosome<std::string>(new Chromosome<std::string>());
@@ -71,7 +71,7 @@ SCENARIO_METHOD(TestFixtureChromosome, "Chromosome Initialization with int", "[c
     }
 }
 
-SCENARIO_METHOD(TestFixtureChromosome, "Chromosome Initialization with user defined type", "[chromosome_init]")
+/*SCENARIO_METHOD(TestFixtureChromosome, "Chromosome Initialization with user defined type", "[chromosome_init]")
 {
     GIVEN("A chromosome consists of my_type")
     {
@@ -87,7 +87,7 @@ SCENARIO_METHOD(TestFixtureChromosome, "Chromosome Initialization with user defi
             }
         }
     }
-}
+}*/
 
 SCENARIO_METHOD(TestFixtureChromosome, "Initialize a chromosome with a given gene size", "[chromosome_init]")
 {
@@ -108,7 +108,7 @@ SCENARIO_METHOD(TestFixtureChromosome, "Initialize a chromosome with a given gen
         }
     }
 }
-
+/*
 SCENARIO_METHOD(TestFixtureChromosome, "Initialize a user defined type chromosome with a given gene size", "[chromosome_init]")
 {
     GIVEN("A user defined type chromosome with 5 genes")
@@ -127,8 +127,8 @@ SCENARIO_METHOD(TestFixtureChromosome, "Initialize a user defined type chromosom
             }
         }
     }
-}
-float fit(Chromosome<int>* c){
+}*/
+static float fit(Chromosome<int>* c){
     return std::count(std::begin(c->genes), std::end(c->genes), 1);
 
 }
@@ -147,7 +147,7 @@ SCENARIO_METHOD(TestFixtureChromosome, "Calculate Fitness Value with a given fit
             chromosome.get()->genes.at(4) = 1;
 
 
-            chromosome->FitnessFunc = &fit;
+            Chromosome<int>::FitnessFunc = &fit;
             WHEN("we tried to calculate fitness value of the chromosome")
             {
 

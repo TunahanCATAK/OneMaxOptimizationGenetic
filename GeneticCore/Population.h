@@ -7,22 +7,26 @@
 
 #include "Chromosome.h"
 
+
+
+template <class T>
 class Population {
+public:
+    typedef Chromosome<T> ChromosomeType;
 
 public:
     int population_size;
     float population_average;
 
-    template <typename T>
-    std::vector<Chromosome<T>> population_pool;
+    std::vector<ChromosomeType> population_pool;
 
-    Population();
+    Population() = delete;
     Population(int);
 
-    Population(const Population&);
-    Population(Population&&) noexcept;
+    Population(const Population<T>&);
+    Population(Population<T>&&) noexcept;
 
-    Population& operator=(const Population& other);
+    Population<T>& operator=(const Population<T>& other);
 
     void calculateProbabilities();
     float getPopulationAverage();

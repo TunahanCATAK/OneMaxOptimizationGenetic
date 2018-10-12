@@ -10,45 +10,33 @@
 #include <vector>
 #include <stdlib.h>     /* srand, rand */
 #include "Chromosome.h"
-//
-//template <class T>
-//Chromosome<T>::Chromosome() : Chromosome(5){}
-//
-//template <class T>
-//Chromosome<T>::Chromosome(std::vector<T> _genes) {
-//    gene_size = _genes.size();
-//    genes = _genes;
-//}
-//
-//template <class T>
-//Chromosome<T>::Chromosome(int _gene_size) : genes(_gene_size, new T()) {
-//    gene_size = _gene_size;
-//
-////    for(int i = 0; i < gene_size; i++){
-////        int num = rand() % 10 + 1;
-////        genes[i] = num;
-////    }
-//}
+#include <string>
 
-//template <class T>
-//float Chromosome<T>::calculateFitness(){
-//
-//};
-//template <class T>
-//void Chromosome<T>::calculateExpectedNumber(float average){
-//    this->expected_number = calculateFitness()/average;
-//    //DEBUG INFO:
-//    std::cout << "Chromosom: ";
-//
-//    std::for_each(std::begin(genes), std::end(genes),
-//                  [=](int i){ std::cout << i << " "; });
-//
-//    std::cout << "  -> " << this->expected_number << std::endl;
-//}
-//template <class T>
-//bool Chromosome<T>::operator<(const Chromosome<T>& left) const{
-//    return std::round(expected_number) < std::round(left.expected_number);
-//}
-//
+template class Chromosome<int>;
+template class Chromosome<double>;
+template class Chromosome<bool>;
+template class Chromosome<std::string>;
+
+template <class T>
+float Chromosome<T>::calculateFitness(){
+    auto fitt_val = std::bind(FitnessFunc,this);
+    return fitt_val();
+    //return fitt_val;
+}
+
+template <class T>
+Chromosome<T>::Chromosome() : Chromosome(0) { }
+
+template <class T>
+Chromosome<T>::Chromosome(int gene_size){
+    this->gene_size = gene_size;
+    this->genes = std::vector<T>(gene_size);
+}
+
+template <class T>
+bool Chromosome<T>::operator<(const Chromosome<T>& left) const{
+    return std::round(expected_number) < std::round(left.expected_number);
+}
+
 
 

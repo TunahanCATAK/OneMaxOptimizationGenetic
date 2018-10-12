@@ -8,7 +8,8 @@ add_executable(TestOneMaxProblem
 
         catch.hpp
         ../../GeneticCore/Chromosome.h
-        #../../GeneticCore/Population.h
+        ../../GeneticCore/Population.h
         ../../GeneticCore/Chromosome.cpp
-        #../../GeneticCore/Population.cpp
-        TestChromosome.cpp)
+        ../../GeneticCore/Population.cpp
+        TestChromosome.cpp
+        TestPopulation.cpp)

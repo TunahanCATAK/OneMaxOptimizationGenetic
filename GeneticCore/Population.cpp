@@ -6,54 +6,63 @@
 #include <vector>
 #include "Population.h"
 
-Population::Population() {
+template class Population<int>;
+template class Population<double>;
+template class Population<bool>;
+template class Population<std::string>;
 
-}
-
-Population::Population(const Population& other) {
+template <class T>
+Population<T>::Population(const Population& other) {
     log("Copy Constructure for Population is called");
     population_size = other.population_size;
     population_pool = std::move(other.population_pool);
-    population_average = getPopulationAverage();
+    getPopulationAverage();
 }
 
-Population::Population(int pop_size) {
+template <class T>
+Population<T>::Population(int pop_size) {
     population_size = pop_size;
-    population_pool = std::vector<Chromosome>(population_size);
+    population_pool = std::vector<ChromosomeType>(population_size);
 
     getPopulationAverage();
 }
 
-Population::Population(Population &&other) noexcept {
+template <class T>
+Population<T>::Population(Population<T> &&other) noexcept {
     log("Move Constructure of Population is Called");
     population_pool = std::move(other.population_pool);
     population_size = other.population_size;
-    population_average = getPopulationAverage();
+    getPopulationAverage();
 }
 
-Population& Population::operator=(const Population& other){
+template <class T>
+Population<T>& Population<T>::operator=(const Population<T>& other){
     log("Copy Assignment for Population is Called");
     population_size = other.population_size;
     population_pool = std::move(other.population_pool);
-    population_average = getPopulationAverage();
+    getPopulationAverage();
     return *this;
 }
 
+/*
 void Population::calculateProbabilities(){
     std::for_each(std::begin(population_pool), std::end(population_pool),
                   [=](Chromosome &chro){ chro.calculateExpectedNumber(population_average);});
 }
+*/
 
-float Population::getPopulationAverage(){
+template <class T>
+float Population<T>::getPopulationAverage(){
     int sum = 0;
     std::for_each(std::begin(population_pool), std::end(population_pool),
-                  [&sum](Chromosome chro){ sum += chro.calculateFitness(); });
+                  [&sum](ChromosomeType chro){ sum += chro.calculateFitness(); });
 
     population_average = (float)sum/population_pool.size();
 
     return population_average;
 }
 
-void Population::log(const char* msg){
+template <class T>
+void Population<T>::log(const char* msg){
     std::cout << msg << std::endl;
 }
